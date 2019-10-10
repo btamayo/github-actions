@@ -18,8 +18,8 @@ jobs:
     - name: build pdk-validate
       uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
       with:
-        args: build -t mpepping/pdk-validate-github-action ./pdk-validate
+        args: build -t btamayo/pdk-validate-github-action ./pdk-validate
     - name: push pdk-validate
       uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
       with:
-        args: push mpepping/pdk-validate-github-action
+        args: push btamayo/pdk-validate-github-action
