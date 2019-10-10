@@ -9,6 +9,6 @@ workflow "PDK Validate Puppet code" {
 }
 
 action "Validator" {
-  uses = "docker://mpepping/pdk-validate-github-action"
+  uses = "docker://btamayo/pdk-validate-github-action"
 }
 ```

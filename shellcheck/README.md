@@ -9,6 +9,6 @@ workflow "ShellCheck all shell scripts" {
 }
 
 action "ShellCheck" {
-  uses = "docker://mpepping/shellcheck-github-action"
+  uses = "docker://btamayo/shellcheck-github-action"
 }
 ```

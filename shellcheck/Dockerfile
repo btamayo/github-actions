@@ -6,9 +6,9 @@ LABEL "com.github.actions.description" = "Run shellcheck on all shell scripts in
 LABEL "com.github.actions.icon"        = "box"
 LABEL "com.github.actions.color"       = "green"
 
-LABEL "repository" = "https://github.com/mpepping/github-actions"
+LABEL "repository" = "https://github.com/btamayo/github-actions"
 LABEL "homepage"   = "https://www.shellcheck.net"
-LABEL "maintainer" = "https://github.com/mpepping"
+LABEL "maintainer" = "https://github.com/btamayo"
 
 ADD entrypoint.sh  /entrypoint.sh
 RUN apk add --no-cache bash ; \

@@ -18,7 +18,7 @@ jobs:
     - name: build docker-hub-metadata
       uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
       with:
-        args: build -t mpepping/docker-hub-metadata-github-action ./docker-hub-metadata
+        args: build -t btamayo/docker-hub-metadata-github-action ./docker-hub-metadata
     - name: push docker-hub-metadata
       uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
       with:

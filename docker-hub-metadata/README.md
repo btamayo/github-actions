@@ -18,9 +18,9 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Update Docker hub metadata
-      uses: docker://mpepping/docker-hub-metadata-github-action
+      uses: docker://btamayo/docker-hub-metadata-github-action
       env:
-        IMAGE: mpepping/docker-demo
+        IMAGE: btamayo/docker-demo
         DOCKER_USERNAME: DOCKER_USERNAME
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
 ```
