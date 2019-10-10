@@ -1,5 +1,5 @@
 on: push
-name: ' dockerhub-metadata build'
+name: 'dockerhub-metadata build'
 jobs:
   docker-hub-metadataIsMaster:
     name: docker-hub-metadata is master
@@ -22,4 +22,4 @@ jobs:
     - name: push docker-hub-metadata
       uses: actions/docker/cli@8cdf801b322af5f369e00d85e9cf3a7122f49108
       with:
-        args: push mpepping/docker-hub-metadata-github-action
+        args: push btamayo/docker-hub-metadata-github-action
