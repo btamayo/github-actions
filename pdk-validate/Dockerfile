@@ -1,4 +1,4 @@
-FROM btamayo/pdk-centos:latest as base
+FROM puppet/pdk:latest as base
 
 FROM base as pdk-validate
 LABEL "com.github.actions.name"        = "PDK validate"
